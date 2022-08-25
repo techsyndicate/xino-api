@@ -32,8 +32,8 @@ def algo():
     ]
     opt = linprog(c=obj, A_ub=lhs_ineq, b_ub=rhs_ineq,)
     print(opt.x)
-    print(type(opt.x))
-    return(opt.x.tolist())
+    print(type(opt.x.tolist()))
+    return(json.dumps(opt.x.tolist()))
 
 
 if __name__ == '__main__':
