@@ -28,6 +28,7 @@ Flask-Cors==3.0.10
 future==0.18.2
 gevent==21.12.0
 greenlet==1.1.3
+gunicorn==20.1.0
 idna==3.3
 ipykernel==6.15.1
 ipython==8.4.0
